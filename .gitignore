@@ -62,8 +62,11 @@ yarn-error.log
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
 
-# testing
-/coverage
-node_modules
-yarn.lock
 package-lock.json
+yarn.lock
+tmp.xcconfig
+ios/Podfile.lock
+android/app/release/
+
+__tests__
+RN
